@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    <script defer src="./Script.js"></script>
+</head>
+
+<body>
+    <p>Kérem az első számot</p>
+    <input type="number" name="elso" id="elso">
+    <p>Kérem a második szamot</p>
+    <input type="number" name="masod" id="masod"><br>
+    <button onclick="Add(elso,masod)">+</button>
+    <button onclick="Sub(elso,masod)">-</button>
+    <button onclick="Multi(elso,masod)">*</button>
+    <button onclick="Div(elso,masod)">/</button>
+    <h2>Eredmény:</h2> 
+    <p id="eredmeny"></p>
+</body>
+
+</html>
